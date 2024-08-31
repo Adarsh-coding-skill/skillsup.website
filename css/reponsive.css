@@ -785,6 +785,410 @@
 
 }
 
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+    }
+
+
+    .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 181px;
+        border: 3px solid white;
+        border-radius: 37%;
+
+        height: 56px;
+
+    }
+
+    .nav-list {
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .a {
+        border: 2px solid white;
+        border-radius: 2px;
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 6px;
+    }
+
+    .rightNav {
+
+        width: 50%;
+        text-align: right;
+    }
+
+    .background {
+        /* background: rgba(0, 0, 0,0) url('../vibeo/ani.mp4'); */
+        background-size: cover;
+        background-blend-mode: darken;
+        position: sticky;
+        /* background-color: black; */
+    }
+
+    .video-container {
+        z-index: -100;
+        width: 100%;
+        height: 9%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #video-bg {
+        width: 100%;
+
+    }
+
+    marquee {
+        /* text-decoration-color: white; */
+        color: rgb(241, 202, 202);
+        background-size: cover;
+        /* overflow:hidden; */
+        font-size: 130%;
+        background-blend-mode: darken;
+        /* background: black; */
+    }
+
+    .video-container2 {
+        z-index: -100;
+        width: 100%;
+        height: 4%;
+        overflow: hidden;
+        position: absolute;
+        /* top: 0; */
+        /* position: sticky; */
+        left: 0;
+        margin-top: -36px;
+    }
+
+    input#search {
+        margin-top: 21px;
+    }
+
+    .btn.btn-sm {
+        text-decoration: none;
+        color: #2b63dc;
+        border: 2px solid white;
+        border-radius: 36px;
+        padding: 3px;
+    }
+
+    p.TECHNOLOGY {
+        font-family: poppins;
+        font-size: 50px;
+        background: linear-gradient(138deg, rgb(250, 225, 3), rgb(222, 76, 222), darkblue, rgba(250, 16, 4, 0.888),
+                rgba(254, 171, 5, 0.749), darkgreen);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* background-size: auto; */
+        animation: gradient 150s linear(-0.04 -0.59%, 0.26 112.35%, 1.07 48.24%, 0.03 94.71%, 0.35 53.53%, 0.97 2.94%, -0.39 58.24%, 0.64 -11.76%, 1 100%) infinite;
+        background-size: 30px, 30px;
+        text-align: center;
+    }
+
+    .simplified.Interfaces {
+        font-family: "Courgette", cursive;
+    }
+
+    .tech1 {
+        font-family: "Anton SC", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .simplified.Interfaces {
+        margin-right: 40%;
+    }
+
+    .imgtech {
+        width: 23%;
+        margin-left: 75%;
+        height: 125px;
+        margin-top: -90px;
+    }
+
+    h1.future {
+        Background: linear-gradient(524deg, rgb(250, 225, 3), rgb(255, 0, 0), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), rgb(240, 3, 42));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        TEXT-ALIGN: center;
+    }
+
+    .calender {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+        background-color: rgb(15, 14, 14);
+        height: 25vh;
+        box-sizing: border-box;
+        position: relative;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .mini.calender {
+        background-color: white;
+        width: 142px;
+        height: 119px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+        overflow: hidden;
+        left: 2%;
+    }
+
+
+
+
+    .month-name {
+        margin: auto;
+        background-color: orangered;
+        width: 100%;
+        padding: 10px;
+
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .day-name {
+        font-size: 20px;
+        color: purple;
+        margin: auto;
+    }
+
+    .day-number {
+        font-size: 40px;
+        margin: 0;
+        font-weight: bold;
+
+    }
+
+    .year {
+        margin: 20px 0;
+        font-size: 20px;
+        color: peru;
+        margin: auto;
+    }
+
+    .clock {
+        width: 145px;
+        height: 145px;
+        border-radius: 50%;
+        background-color: rgb(27, 28, 28);
+        border: 2px solid white;
+        box-shadow: 0 15px 50px #ffffff6b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .clock span {
+        position: absolute;
+        transform: rotate(calc(29.3deg* var(--i)));
+        inset: 9px;
+        color: wheat;
+        text-align: center;
+        left: -163.9%;
+        margin: 0 816px;
+
+    }
+
+    .clock span b {
+        transform: rotate(calc(-29.3deg * var(--i)));
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .clock::before {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: white;
+        z-index: 2;
+
+    }
+
+    .hand {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .hand i {
+        position: absolute;
+        background-color: var(--clr);
+        width: 3px;
+        height: var(--h);
+        border-radius: 8px;
+    }
+
+    h1.jo {
+        animation-duration: 3s;
+        /* text-align; */
+
+        animation-name: slidein;
+        background: linear-gradient(50deg, coral, white, pink, navy, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .video-container3 {
+        width: 100%;
+    }
+
+    #video-back {
+        object-fit: fill;
+        width: 99vw;
+        height: 60vh;
+        position: absolute;
+        z-index: -100;
+        border: 2px solid black;
+        border-radius: 5%
+    }
+
+    div#imgh {
+        display: flex;
+        justify-content: center;
+    }
+    .digital-clock{
+        width: 383px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    img {
+        width: 110px;
+        height: 110px;
+        border: 2px solid rgb(17, 17, 17);
+        border-radius: 10%;
+        padding: auto;
+        margin: auto;
+        box-shadow: 0 5px 25px #ecdddd6b;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .copyright {
+        font-family: poppins;
+        font-size: 10px;
+        background: linear-gradient(180deg, black, white, grey, black, white, black);
+
+        animation: gradient 0s linear(-0.04 -0.59%, 0.26 112.35%, 1.07 48.24%, 0.03 94.71%, 0.35 53.53%, 0.97 2.94%, -0.39 58.24%, 0.64 -11.76%, 1 100%) infinite;
+        background-size: 30px, 30px;
+        text-align: center;
+        margin-top: 100%;
+        color: #726565;
+    }
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+        }
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 75% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+
+
+
+    }
+
+
+
+
+}
+
 @media only screen and (max-width: 375px) {
     .navbar {
         display: flex;
