@@ -1,0 +1,47 @@
+@media  only screen and (max-width: 1140px){
+.nav-list {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 17px 0px;
+    margin-top: 124px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    background-color: grey;
+}
+.navbar{
+    flex-direction: column;
+    height: 585px;
+    /* background-color: grey; */
+ transition: all 0.7s ease-out;
+}
+.rightNav{
+    text-align: center;
+    padding: 17px 0;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    background-color: grey;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+
+
+
+
+
+}
