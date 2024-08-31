@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="google,top website,web,coding">
+    <link rel="stylesheet" href="css/decoding.css">
+    <link rel="stylesheet" href="css/reponsive2.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <title>TRENDS SKILLS</title>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar background h-nav-resp">
+                <ul class="nav-list v-class-resp">
+                    <div class="logo"><img src="img/img.png" alt="logo"></div>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="service.html">service</a></li>
+                    <li><a href="online.html">online</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+                <DIV class="rightNav v-class-resp">
+                    <input type="text" name="search" id="search">
+                    <button class="btn btn-sm">Search</button>
+                </DIV>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+            <div class="video-container">
+                <video autoplay loop id="video-bg">
+                    <source src="vibeo/d8u_resized-vmake.mp4" type="video/mp4">
+                </video>
+            </div>
+
+
+
+        </div>
+    </header>
+    <br>
+    <header>
+        <div class="header">
+            <marquee behavior="scroll" text-size="100%" direction="right" height="30px" width="100%">adarsh</marquee>
+
+            <div class="video-container2">
+                <video autoplay loop id="video-bg">
+                    <source src="vibeo/d8u_resized-vmake.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <section class="loNG CONTACT">
+        <p class="TECHNOLOGY">CONTACT US</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar')
+navList = document.querySelector('.nav-list')
+
+
+rightNav = document.querySelector('.rightNav')
+
+
+burger.addEventListener('click', ()=>{
+navList.classList.toggle('v-class-resp');
+rightNav.classList.toggle('v-class-resp');
+navbar.classList.toggle('h-nav-resp');
+
+
+} )
+    </script>
+ <script src="home.js"></script>
+ <script defer src="javascrit-decoding/swup.js"></script>
+
+
+<!-- <script src="REACT/contact.jsx"></script> -->
+</body>
+
+</html>
