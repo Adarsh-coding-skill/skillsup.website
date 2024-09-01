@@ -789,6 +789,10 @@
 @media only screen and (max-width: 400px),
  screen and (max-height: 810px) 
     {
+
+        body{
+            background-color: lightgoldenrodyellow;
+        }
     .navbar {
         display: flex;
         align-items: center;
@@ -904,9 +908,8 @@
 
     p.TECHNOLOGY {
         font-family: poppins;
-        font-size: 50px;
-        background: linear-gradient(138deg, rgb(250, 225, 3), rgb(222, 76, 222), darkblue, rgba(250, 16, 4, 0.888),
-                rgba(254, 171, 5, 0.749), darkgreen);
+        font-size: 46px;
+        background: linear-gradient(138deg, rgb(250, 225, 3), rgb(222, 76, 222), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), darkgreen);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         /* background-size: auto; */
@@ -936,12 +939,16 @@
         margin-top: -90px;
     }
 
-    h1.future {
-        Background: linear-gradient(524deg, rgb(250, 225, 3), rgb(255, 0, 0), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), rgb(240, 3, 42));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        TEXT-ALIGN: center;
+    @media only screen and (max-width: 400px), screen and (max-height: 810px) {
+        h1.future {
+            Background: linear-gradient(524deg, rgb(250, 225, 3), rgb(255, 0, 0), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), rgb(240, 3, 42));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            TEXT-ALIGN: center;
+            font-size: 22px;
+        }
     }
+    
 
     .calender {
 
@@ -1106,9 +1113,43 @@
         box-shadow: 0 5px 25px #ecdddd6b;
     }
 
+    .digital-clock::after {
+        content: '';
+        width: 75px;
+        height: 75px;
+        background: #1bc1f4;
+        border-radius: 50%;
+        position: absolute;
+        right: 0%;
+        bottom: -50%;
+        z-index: -1;
+    }
 
+    .digital-time {
+        width: 91%;
+        height: 100%;
+        background: rgba(235, 0, 255, 0.11);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 18px;
+        justify-content: center;
+        backdrop-filter: blur(40px);
+    }
 
-
+    .digital-clock::before {
+        content: '';
+        width: 68px;
+        height: 66px;
+        background: #f41b75;
+        border-radius: 5px;
+        position: absolute;
+        left: 0%;
+        top: -36%;
+        z-index: -1;
+    }
+    
+    
 
 
 
@@ -2104,4 +2145,3 @@
     }
 
 }
-
