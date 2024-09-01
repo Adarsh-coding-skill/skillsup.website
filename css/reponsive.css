@@ -939,16 +939,14 @@
         margin-top: -90px;
     }
 
-    @media only screen and (max-width: 400px), screen and (max-height: 810px) {
-        h1.future {
-            Background: linear-gradient(524deg, rgb(250, 225, 3), rgb(255, 0, 0), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), rgb(240, 3, 42));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            TEXT-ALIGN: center;
-            font-size: 22px;
-        }
+
+    h1.future {
+        Background: linear-gradient(524deg, rgb(250, 225, 3), rgb(255, 0, 0), darkblue, rgba(250, 16, 4, 0.888), rgba(254, 171, 5, 0.749), rgb(240, 3, 42));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        TEXT-ALIGN: center;
+        font-size: 22px;
     }
-    
 
     .calender {
 
@@ -974,7 +972,7 @@
         border-radius: 10px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
         overflow: hidden;
-        left: 2%;
+        left: 6%;
     }
 
 
@@ -1068,12 +1066,14 @@
 
     h1.jo {
         animation-duration: 3s;
-        /* text-align; */
-
         animation-name: slidein;
-        background: linear-gradient(50deg, coral, white, pink, navy, grey);
+        background: linear-gradient(50deg, #2b63dc, #08001f, #f41b75, navy, #726565);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    hr {
+        background-color: black;
+        height: 1px;
     }
 
     .video-container3 {
@@ -1082,8 +1082,8 @@
 
     #video-back {
         object-fit: fill;
-        width: 99vw;
-        height: 60vh;
+        width: 0vw;
+        height: 0vh;
         position: absolute;
         z-index: -100;
         border: 2px solid black;
@@ -1093,7 +1093,9 @@
     div#imgh {
         display: flex;
         justify-content: center;
+        margin-top: 54px;
     }
+    
     .digital-clock{
         width: 383px;
     height: 75px;
@@ -2145,4 +2147,3 @@
     }
 
 }
-
